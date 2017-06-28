@@ -1,0 +1,22 @@
+{
+  "name": "react-tooltip-plugin",
+  "version": "1.0.6",
+  "description": "This is a tooltip plugin for react.",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrickUI/react-tooltip-plugin.git"
+  },
+  "keywords": [
+    "tooltip"
+  ],
+  "author": "BrickUI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrickUI/react-tooltip-plugin/issues"
+  },
+  "homepage": "https://github.com/BrickUI/react-tooltip-plugin#readme"
+}
