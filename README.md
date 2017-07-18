@@ -3,8 +3,7 @@ Install
 
 npm install --save react-tooltip-plugin
 
-第一种使用方法，自定义样式
-The first method of use , customer style.
+Use
 
     1: 全局引用一次样式
     1: Global require onece style
@@ -91,22 +90,10 @@ The first method of use , customer style.
     }
 
     2: 在需要展示tooltip的模块中
-    import tooltip from 'react-tooltip-plugin/cs'
+    import tooltip from 'react-tooltip-plugin'
 
     onMouseEnter={(e)=>{tooltip({e, msg: 'Toolpic show message', align: 'top'})}}
     onMouseLeave={()=>{tooltip({leave: true})}}
 
     align可取值(top,right,bottom,left)默认值是top,当值为top时align可以省略。
     align available value (top,right,bottom,left) default value is top,if you set align value is top you can ellipsis it.
-
-
-第二种使用方法，css-loader自动载入模块化样式
-The second method of use, css-loader auto load modules style.
-
-    如果你的css-loader设置了modules:true, 就不需要引入toolpic.css,react-tooltip-plugin/loadcss已经引入了tooltip.css。
-    If your css-loader setting modules:true, so you don't need required tooltip.css, react-tooltip-plugin/loadcss already require tooltip.css.
-
-    import tooltip from 'react-tooltip-plugin'
-
-    onMouseEnter={(e)=>{tooltip({e, msg: 'Toolpic show message', align: 'top'})}}
-    onMouseLeave={()=>{tooltip({leave: true})}}
